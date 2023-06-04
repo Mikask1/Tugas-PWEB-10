@@ -38,7 +38,7 @@ $pdf->Cell(40, 10, 'NIS', 1, 0, 'C');
 $pdf->Cell(50, 10, 'Nama', 1, 0, 'C');
 $pdf->Cell(40, 10, 'Jenis Kelamin', 1, 0, 'C');
 $pdf->Cell(40, 10, 'Telepon', 1, 0, 'C');
-$pdf->Cell(767, 10, 'Alamat', 1, 1, 'C');
+$pdf->Cell(67, 10, 'Alamat', 1, 1, 'C');
 
 $sql = $pdo->prepare("SELECT * FROM siswa ORDER BY nis");
 $sql->execute();
